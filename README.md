@@ -45,45 +45,37 @@ BitScope is a powerful and user-friendly web application designed to provide com
     * Iconify
 
 ## Project Structure
-BitScope/
-├── node_modules/
-├── public/
-│   ├── index.html
-│   └── ... (Static assets)
-├── src/
-│   ├── components/
-│   │   ├── Chart.js
-│   │   ├── CryptoDetails.js
-│   │   ├── Filters.js
-│   │   ├── Logo.js
-│   │   ├── Navigation.js
-│   │   └── ... (Other components)
-│   ├── context/
-│   │   ├── CryptoContext.js
-│   │   ├── StorageContext.js
-│   │   ├── TrendingContext.js
-│   ├── pages/
-│   │   ├── Crypto.js
-│   │   ├── Error.js
-│   │   ├── Home.js
-│   │   ├── Saved.js
-│   │   ├── Trending.js
-│   ├── App.js
-│   ├── App.css
-│   ├── App.test.js
-│   ├── index.js
-│   ├── index.css
-│   ├── logo.svg
-│   ├── reportWebVitals.js
-│   ├── setupTests.js
-│   └── ... (Other source files)
-├── .gitignore
-├── CryptoBucks.fig
-├── documentation.txt
-├── package.json
-├── package-lock.json
-├── postcss.config.js
-└── tailwind.config.js
+Root Directory (BitScope/):
+Contains the core project files and folders.
+Includes configuration files, documentation, and source code.
+node_modules/:
+Stores all the project's installed dependencies from npm.
+public/:
+Holds static assets like the index.html file (the entry point of the web application) and other static files (images, favicons, etc.).
+src/:
+Contains the main source code of the React application.
+components/:
+Houses reusable React components like Chart.js (for Recharts), CryptoDetails.js, Filters.js, Logo.js, and Navigation.js.
+context/:
+Holds the react context files that manage the global states of the application. files like CryptoContext.js, StorageContext.js, TrendingContext.js are inside this folder.
+pages/:
+Contains React components that represent different pages or views of the application, such as Crypto.js, Error.js, Home.js, Saved.js, and Trending.js.
+App.js: The root component of the React application.
+App.css: Global styles for the App component.
+App.test.js: Unit tests for the App component.
+index.js: The entry point for the React application.
+index.css: Global styles for the entire application.
+logo.svg: The React logo SVG file.
+reportWebVitals.js: File for tracking web vitals.
+setupTests.js: Setup file for testing environment.
+Other JavaScript and CSS files.
+.gitignore: Specifies files and directories to be ignored by Git.
+CryptoBucks.fig: The Figma design file for the project's UI.
+documentation.txt: The project's documentation file.
+package.json: Contains project metadata and dependencies.
+package-lock.json: Records the exact versions of installed dependencies.
+postcss.config.js: Configuration for PostCSS.
+tailwind.config.js: Configuration for Tailwind CSS.
 
 ## Installation
 
