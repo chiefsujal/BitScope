@@ -1,6 +1,5 @@
 # BitScope: Comprehensive Cryptocurrency Analytics Platform
 
-[![License](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)  
 [![Made with React](https://img.shields.io/badge/Made%20with-React-61DAFB.svg)](https://reactjs.org/)  
 [![Powered by CoinGecko API](https://img.shields.io/badge/Powered%20by-CoinGecko%20API-FF9900.svg)](https://www.coingecko.com/en/api)
 
